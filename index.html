@@ -23,7 +23,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-
+        
     </head>
 
     <body>
@@ -65,10 +65,10 @@
 	        <div class="container">
 	            <div class="row">
 	                <div class="col col-md-10 offset-md-1">
-	                	<h1>Integra Sport 2013 ASD ONLUS</h1>
+	                	<h1>ASD Integra Sport 2013</h1>
 	                	<div class="description">
 	                		<p>
-	                			L'Associazione INTEGRA SPORT 2013 ASD ONLUS si avvale della collaborazione di strutture del territorio romano per l'attivazione di corsi di CALCIO - BASKET rivolti a persone con e senza disabilità
+	                			L'Associazione INTEGRA SPORT 2013 ASD si avvale della collaborazione di strutture del territorio di Roma e Provincia per l'attivazione di corsi di CALCIO - BASKET rivolti a persone con e senza disabilità
 	                		</p>
 	                	</div>
 	                </div>
@@ -198,10 +198,10 @@
 								</div>
 								<div class="carousel-item">
 									<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14HvyR_5GKpANjxyUQvKe6Kol72TqaVQU/preview" width="640" height="480" allow="autoplay"></iframe>
-	       								<!--<video controls>
+	       								<!--<iframe class="embed-responsive-item" src="https://drive.google.com/file/d/14HvyR_5GKpANjxyUQvKe6Kol72TqaVQU/preview" width="640" height="480" allow="autoplay"></iframe>-->
+	       								<video controls>
 										  <source src="assets/img/gallery/YouCut_20220908_121855849.mp4" type="video/mp4">
-										</video>-->
+										</video>
 	       							</div>
 								</div>
 								<div class="carousel-item">
@@ -209,10 +209,10 @@
 								</div>
 								<div class="carousel-item">
 									<div class="embed-responsive embed-responsive-16by9">
-										<iframe class="embed-responsive-item" src="https://drive.google.com/file/d/18bzbvzfOTn1HSlIsSsx9z8thj0YNNxEt/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>
-										<!--<video controls>
+										<!--<iframe class="embed-responsive-item" src="https://drive.google.com/file/d/18bzbvzfOTn1HSlIsSsx9z8thj0YNNxEt/preview" width="640" height="480" allow="autoplay" allowfullscreen></iframe>-->
+										<video controls>
 										  <source src="assets/img/gallery/VID-20220825-WA0062.mp4" type="video/mp4">
-										</video>-->
+										</video>
 	       							</div>
 								</div>
 								<div class="carousel-item">
@@ -226,10 +226,10 @@
 								</div>
 								<div class="carousel-item">
 									<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" src="https://drive.google.com/file/d/18aAGF043-3JENjqTX_h3VWO_w58Pt-kU/preview" width="640" height="480" allow="autoplay"></iframe>
-	       								<!--<video controls>
+	       								<!--<iframe class="embed-responsive-item" src="https://drive.google.com/file/d/18aAGF043-3JENjqTX_h3VWO_w58Pt-kU/preview" width="640" height="480" allow="autoplay"></iframe>-->
+	       								<video controls>
 										  <source src="assets/img/gallery/YouCut_20220306_134348595.mp4" type="video/mp4">
-										</video>-->
+										</video>
 	       							</div>
 								</div>
 								<div class="carousel-item">
@@ -245,11 +245,11 @@
 									<img src="assets/img/gallery/IMG20220528133719.jpg" class="d-block w-100" alt="Image 6">
 								</div>
 							</div>
-							<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+							<a class="carousel-control-prev" onclick="document.querySelectorAll('video').forEach(vid => vid.pause());" href="#myCarousel" role="button" data-slide="prev">
 								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 								<span class="sr-only">Previous</span>
 							</a>
-							<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+							<a class="carousel-control-next" onclick="document.querySelectorAll('video').forEach(vid => vid.pause());" href="#myCarousel" role="button" data-slide="next">
 								<span class="carousel-control-next-icon" aria-hidden="true"></span>
 								<span class="sr-only">Next</span>
 							</a>
@@ -257,7 +257,7 @@
 						
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+						<button type="button" onclick="document.querySelectorAll('video').forEach(vid => vid.pause());" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
 					</div>
 				</div>
 			</div>
@@ -287,7 +287,7 @@
 		                	</div>
 	                		<div class="col-md-8">
 	                    		<h3>Calcio e Basket</h3>
-	                    		<p>Corsi di calcio a 5 integrato e corsi di basket per atleti con disabilità intellettiva e relazionale.</p>
+	                    		<p>Corsi di calcio a 5 integrato e di basket integrato per atleti con disabilità.</p>
 	                    	</div>
 	                    </div>
                     </div>
@@ -308,14 +308,89 @@
                 			<div class="col-md-4">
 			                	<div style="width: 80px; height: 80px; background: url(./assets/ico/camping.png) center no-repeat; background-size: 60px;">
 			                	</div>
+			                	<div style="width: 80px; height: 80px; background: url(./assets/ico/chef.png) center no-repeat; background-size: 60px;">
+			                	</div>
 		                	</div>
 	                		<div class="col-md-8">
-	                    		<h3>Camp Sportivi</h3>
-	                    		<p>Uscite fuori porta e camp di attività sportiva e ricreativa.</p>
+	                    		<h3>Camp Sportivi e corsi di cucina</h3>
+	                    		<p>Uscite fuori porta, camp di attività sportiva, soggiorni ludici ricreativi e attività di cucina guidate.</p>
 	                    	</div>
 	                    </div>
                     </div>
 	            </div>
+	            <div class="row">
+					<div class="table-responsive">
+					<table class="table">
+					  <thead>
+						<tr>
+						  <th scope="col">#</th>
+						  <th scope="col">Calcio integrato</th>
+						  <th scope="col">Basket integrato</th>
+						  <th scope="col">Basket senior</th>
+						  <th scope="col">Mini basket</th>
+						</tr>
+					  </thead>
+					  <tbody>
+						<tr>
+						  <th scope="row">1</th>
+						  <td>
+							CIRCOLO MONTECITORIO
+							Via dei Campi Sportivi 5, 00197 Roma
+							Martedi e Venerdi ore 15.00-16.00
+						  </td>
+						  <td>
+							PALESTRA ISTITUTO CARDANO 
+							Piazza della Resistenza / Monterotondo
+							giovedì ore 18.30-19.30
+						  </td>
+						  <td>
+							PALESTRA ISTITUTO CATULLO
+							via tirso 19 / Monterotondo
+							Lunedì e Mercoledì 20.30 - 23.00
+						  </td>
+						  <td>Luogo e orario da definire</td>
+						</tr>
+						<tr>
+						  <th scope="row">2</th>
+						  <td>
+						    LEDESMA ACADEMY - GAUSS 
+							Via Franco Simongini 29, 00137 Roma 
+							Sabato ore 11.00-12.00
+						  </td>
+						  <td>
+							PALAZZETTO DELLO SPORT
+							Via Monviso snc / Monterotondo
+							Sabato ore 9.00-10.00
+						  </td>
+						  <td></td>
+						  <td></td>
+						</tr>
+						<tr>
+						  <th scope="row">3</th>
+						  <td>
+						    REAL MONTEROTONDO (STADIO O. PIERANGELI)
+							Monterotondo Scalo 
+							Sabato ore 10.00-11.00
+						  </td>
+						  <td></td>
+						  <td></td>
+						  <td></td>
+						</tr>
+						<tr>
+						  <th scope="row">4</th>
+						  <td>
+						    PALESTRA ISTITUTO CARDANO 
+							Piazza della Resistenza / Monterotondo 
+							Giovedì ore 19.30-20.30
+						  </td>
+						  <td></td>
+						  <td></td>
+						  <td></td>
+						</tr>
+					  </tbody>
+					</table>
+					</div>
+				</div>
 	        </div>
         </div>
 
@@ -331,10 +406,10 @@
 	            <div class="row">
 	            	<div class="col section-2-box wow fadeInLeft">
                     	<p class="medium-paragraph">
-                    	Siamo un’associazione sportiva dilettantistica nata nel 2013 che organizza attività sportive per bambini/e, ragazzi/e e adulti con e senza disabilità intellettiva e relazionale.
+                    	Siamo un’associazione sportiva dilettantistica nata nel 2013 che organizza attività sportive per bambini/e, ragazzi/e e adulti con e senza disabilità.
 L'<b>obiettivo</b> è fare sport favorendo il divertimento, la crescita personale, sociale e relazionale, nonché il benessere psicofisico. 
 La nostra mission è promuovere lo <b>sport</b> integrato tra atleti con e senza disabilità, promuovendo una cultura dello sport in cui “diversità e differenze” non costituiscono un limite, ma un veicolo di crescita personale e arricchimento per tutti. 
-Il nostro team è costituito da istruttori Iusm, psicologi, istruttori federali di calcio e basket, educatori e volontari.
+Il nostro team è costituito da istruttori Iusm, psicologi, terapisti della neuropsicomotricità, istruttori federali di calcio e basket, educatori e volontari.
                     	</p>
                     	<p>
                     	<b>L'associazione organizza: </b>
